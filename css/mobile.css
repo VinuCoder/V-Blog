@@ -1,24 +1,25 @@
 @media screen and (min-width: 700px) and (max-width:1200px){
     .navigation{
 
-        height: 10vw;
+        height: 10vh;
     }
     .nav-left span{
-        font-size: 2.7vw;
+        font-size: 4vh;
     }
     .nav-left li a{
-        font-size: 1.5vw;
+        font-size: 2vh;
     }
     .form-input{
-        font-size: 1.2vw;
-        padding: 0 0.5vw;
+        font-size: 1.2vh; 
+        padding: .4vh
     }
     .btn{
         font-size: 1.2vw;
-        padding: 0 0.5vw;
+        padding: .4vh
     }
     .content-right img{
-        height: 15vw;
+        height: 25vh;
+        width: 24vw;
     }
     .home-articles h2{
         text-align: center;
@@ -35,7 +36,7 @@
             font-size: 2.2vw;
     }
     .footers{
-        height: 5vw;
+        height: 7vh;
     }
     .footers div{
         font-size: 2vw;
@@ -52,7 +53,7 @@
 @media screen and (min-width: 280px) and (max-width: 700px){
     .navigation{
         flex-direction: column;
-        height: 17vw;
+        height: 15vh;
     }
     .nav-left{
         flex-direction: column;
@@ -63,22 +64,23 @@
         margin-bottom: 2vw;
     }
     .nav-left span{
-        font-size: 3.4vw;
+        font-size: 3vh;
     }
     .nav-left li a{
-        font-size: 1.7vw;
+        font-size: 1.7vh;
     }
     .nav-right{
-        margin-bottom: 1vw;
+        margin-top: 1vw;
         margin-left: 6vw;
     }
     .form-input{
-        font-size: 1.2vw;
-        padding: 0 0.5vw;
+        font-size: 1.2vh;
+        margin-bottom: 2vh;
+        padding: .4vh
     }
     .btn{
-        font-size: 1.2vw;
-        padding: 0 0.5vw;
+        font-size: 1.2vh;
+        padding: .4vh
     }
     .content{
         margin-top: 4vw;
@@ -88,8 +90,11 @@
         text-align: center;
         padding-right: 2.6vw;
     }
+    .content-left h1{
+        font-size: 3vh;
+    }
     .content-left p{
-        font-size: 1.6vw;
+        font-size: 2.6vw;
     }
     .content-right {
         display: none;
@@ -100,6 +105,7 @@
     }
     .home-articles h2{
         text-align: center;
+        font-size: 2.5vh;
     }
     .year-box{
         top: 7vh;
@@ -116,23 +122,23 @@
     .home-article{
         flex-direction: column;
         text-align: center;
-        padding-top: 1vw;
+        padding-top: 1vh;
     }
     .home-article-content h3{
-        font-size: 2.4vw;
+        font-size: 1.55vh;
     }
     .home-article-content div{
-        font-size: 2vw;
+        font-size: 1.4vh;
         margin-bottom: -3px;
     }
     .home-article-content span{
-        font-size: 2vw;
+        font-size: 1.4vh;
     }
     .home-article-img img{
         border-radius: 15px;
     }
     .footers{
-        height: 5vw;
+        height: 6vh;
     }
     .footers div{
         font-size: 2vw;

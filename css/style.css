@@ -52,7 +52,7 @@
     background-color: grey;
 }
 .content{
-    height: 30vw;
+    height: 50vh;
     /* background-color: blue; */
     display: flex;
     margin-top: 2vw;
@@ -79,10 +79,10 @@
 }
 .content-left h1{
     margin-bottom: 2.5vw;
-    font-size: 2.3vw;
+    font-size: 2.3vh;
 }
 .content-left p{
-    font-size: 1.3vw;
+    font-size: 2.3vh;
 }
 .content-right{
     display: flex;
@@ -97,7 +97,7 @@
     border-radius: 51px;
 }
 .footers{
-    height: 3.5vw;
+    height: 3vh;
     background-color: rgb(66, 63, 63);
     display: flex;
     flex-direction: column;
@@ -144,7 +144,7 @@ position: relative;
 }
 .home-article{
     display: flex;
-    margin-top: 3vh;
+    margin-top: 1.5vh;
 }
 .home-article-img img{
     width: 20vw;
@@ -158,7 +158,8 @@ position: relative;
     margin-left: 2vw;
 }
 .home-article-content h3{
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
 }
 .home-article-content  a{
     text-decoration: none;
