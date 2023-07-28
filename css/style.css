@@ -168,4 +168,8 @@ position: relative;
 }
 .home-article-content div{
     margin-bottom: 1.3vh;
+    color: rgb(43, 42, 42);
+}
+.home-article-content span{
+    color: rgb(126 124 181);
 }
