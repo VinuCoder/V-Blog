@@ -140,7 +140,8 @@ position: relative;
 .home-articles h2{
    padding: 4vh 2vw;
    padding-bottom: 2vh;
-   font-size: 1.8vw;
+   font-size: 4vh;
+   text-align: center;
 }
 .home-article{
     display: flex;

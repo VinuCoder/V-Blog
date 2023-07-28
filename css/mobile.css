@@ -23,9 +23,13 @@
     }
     .home-articles h2{
         text-align: center;
+        font-size: 3vh;
     }
     .year-box{
         top: 7vh;
+    }
+    .year-box h3{
+        font-size: 3vh;
     }
     .home-article{
         flex-direction: column;
@@ -33,7 +37,7 @@
         padding-top: 2vw;
     }
     .home-article-content h3{
-            font-size: 2.2vw;
+        font-size: 2.55vh;
     }
     .footers{
         height: 7vh;
@@ -47,6 +51,15 @@
     }
     .blogpost-content p{
         font-size: 2.3vw;
+    }
+
+    .contact h2{
+        font-size: 3vh;
+    }
+    .form-box input, textarea{
+        padding: 0.8vh;
+        font-size: 1.6vh;
+        width: 60vw;
     }
 }
 
@@ -108,13 +121,14 @@
         font-size: 2.5vh;
     }
     .year-box{
-        top: 7vh;
+        top: 5vh;
+        width: 12vw;
     }
     .year-box h3 {
-        font-size: 3.5vw;
+        font-size: 2vh;
     }
     .year-box div{
-        font-size: 2vw;
+        font-size: 1.5vh;
         display: flex;
         align-items: center;
         margin-top: 2vw;
@@ -136,6 +150,7 @@
     }
     .home-article-img img{
         border-radius: 15px;
+        width: 30vw;
     }
     .footers{
         height: 6vh;
@@ -150,8 +165,8 @@
 
 
     .form-box input, textarea{
-        padding: .8vw;
-        font-size: 1.8vw;
+        padding: 0.8vh;
+        font-size: 1.6vh;
         width: 60vw;
     }
     .btn-2{
@@ -163,5 +178,9 @@
     }
     .blogpost-content p{
         font-size: 2.3vw;
+    }
+
+    .contact h2{
+        font-size: 2.5vh;
     }
 }
