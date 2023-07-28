@@ -1,0 +1,64 @@
+
+.contact{
+    height: 79vh;
+    /* background-color: blue; */
+    /* display: flex; */
+    margin-top: 1vh;
+    position: relative;
+    margin-bottom: 1vh;
+    width: 95%;
+}
+
+.contact::after{
+    content: "";
+    background-image: url("../img/content_background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    border-radius: 15px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.contact h2{
+    text-align: center;
+    padding: 3vh 0;
+    font-size: 2vw;
+}
+.contact-form{
+    text-align: center;
+    margin-top: 2vh;
+}
+.form-box{
+    padding: 1vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-box input,textarea{
+    border: 3px solid rgb(86, 48, 6);
+    border-radius: 10px;
+    padding: .3vw;
+    padding-left: 1vw;
+    font-weight: bold;
+    width: 60vw;
+    font-size: 1vw;
+    font-family: var(--font3);
+}
+.btn-2{
+    padding: .6vw;
+    font-size: 1.8vw;
+    padding: 0.3vw 0.7vw;
+    border: 3px solid black;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .4s ease;
+    width: 35vw;
+}
+.btn-2:hover{
+    background-color: grey;
+    color: gold;
+}

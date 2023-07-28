@@ -1,0 +1,161 @@
+@media screen and (min-width: 700px) and (max-width:1200px){
+    .navigation{
+
+        height: 10vw;
+    }
+    .nav-left span{
+        font-size: 2.7vw;
+    }
+    .nav-left li a{
+        font-size: 1.5vw;
+    }
+    .form-input{
+        font-size: 1.2vw;
+        padding: 0 0.5vw;
+    }
+    .btn{
+        font-size: 1.2vw;
+        padding: 0 0.5vw;
+    }
+    .content-right img{
+        height: 15vw;
+    }
+    .home-articles h2{
+        text-align: center;
+    }
+    .year-box{
+        top: 7vh;
+    }
+    .home-article{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 2vw;
+    }
+    .home-article-content h3{
+            font-size: 2.2vw;
+    }
+    .footers{
+        height: 5vw;
+    }
+    .footers div{
+        font-size: 2vw;
+        padding: 2px;
+    }
+    .footers a{
+        font-size: 1.9vw;
+    }
+    .blogpost-content p{
+        font-size: 2.3vw;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 700px){
+    .navigation{
+        flex-direction: column;
+        height: 17vw;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-left a{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    .nav-left span{
+        font-size: 3.4vw;
+    }
+    .nav-left li a{
+        font-size: 1.7vw;
+    }
+    .nav-right{
+        margin-bottom: 1vw;
+        margin-left: 6vw;
+    }
+    .form-input{
+        font-size: 1.2vw;
+        padding: 0 0.5vw;
+    }
+    .btn{
+        font-size: 1.2vw;
+        padding: 0 0.5vw;
+    }
+    .content{
+        margin-top: 4vw;
+        margin-bottom :4vw;
+    }
+    .content-left{
+        text-align: center;
+        padding-right: 2.6vw;
+    }
+    .content-left p{
+        font-size: 1.6vw;
+    }
+    .content-right {
+        display: none;
+    }
+    .home-articles{
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    .home-articles h2{
+        text-align: center;
+    }
+    .year-box{
+        top: 7vh;
+    }
+    .year-box h3 {
+        font-size: 3.5vw;
+    }
+    .year-box div{
+        font-size: 2vw;
+        display: flex;
+        align-items: center;
+        margin-top: 2vw;
+    }
+    .home-article{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 1vw;
+    }
+    .home-article-content h3{
+        font-size: 2.4vw;
+    }
+    .home-article-content div{
+        font-size: 2vw;
+        margin-bottom: -3px;
+    }
+    .home-article-content span{
+        font-size: 2vw;
+    }
+    .home-article-img img{
+        border-radius: 15px;
+    }
+    .footers{
+        height: 5vw;
+    }
+    .footers div{
+        font-size: 2vw;
+        padding: 2px;
+    }
+    .footers a{
+        font-size: 1.9vw;
+    }
+
+
+    .form-box input, textarea{
+        padding: .8vw;
+        font-size: 1.8vw;
+        width: 60vw;
+    }
+    .btn-2{
+        margin-top: 1vw;
+    }
+
+    .author-info div{
+        font-size: 1.5vw;
+    }
+    .blogpost-content p{
+        font-size: 2.3vw;
+    }
+}
