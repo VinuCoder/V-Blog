@@ -1,7 +1,15 @@
 @media screen and (min-width: 700px) and (max-width:1200px){
     .navigation{
-
-        height: 10vh;
+        flex-direction: column;
+        height: 17vh;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-left a{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
     }
     .nav-left span{
         font-size: 4vh;
@@ -10,12 +18,20 @@
         font-size: 2vh;
     }
     .form-input{
-        font-size: 1.2vh; 
+        font-size: 1.2vh;
+        margin-bottom: 2vh;
         padding: .4vh
     }
     .btn{
         font-size: 1.2vw;
         padding: .4vh
+    }
+    .nav-right{
+        margin-top: 1vw;
+        margin-left: 6vw;
+    }
+    .content{
+        height: 70vh;
     }
     .content-right img{
         height: 25vh;
